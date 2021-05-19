@@ -1,0 +1,27 @@
+h1 {
+    font-size: 300%;
+}
+
+a {
+    color:rgb(223, 121, 25)
+}
+
+#bio {
+    padding: 50px;
+    text-align: left;
+    background-color: #1d2022;
+    float: right;
+    font-size: large;
+    color: rgb(196, 196, 196)
+}
+
+#headshot {
+    padding: 30px;
+    max-width: 350px;
+    position: relative;
+    margin: auto;
+}
+
+#summary {
+    margin-right: 200px;
+}
