@@ -1,20 +1,20 @@
-* { box-sizing: border-box }
-
-img { 
+img {
     vertical-align: middle;
 }
 
 .slider {
-    padding: 70px;
-    height: 650px;
+    align-items: center;
+    position: relative;
+    height: 185px;
 }
 
 .slide_images {
-    padding: 10px;
-    max-width: 700px;
-    margin: auto;
+    max-width: 50%;
     position: relative;
-    filter: brightness( 95% );
+    margin: auto;
+    padding-top: 6vh;
+    max-height: 15vh;
+    z-index: 100;
 }
 
 .fade {
@@ -32,4 +32,35 @@ img {
 @keyframes fade {
     from { opacity: 0 }
     to { opacity: 1 }
+}
+
+@media only screen and ( min-width: 767px ) {
+    .slider {
+        height: 400px;
+    }
+
+    .slide_images {
+        min-width: 55%
+    }
+}
+
+@media only screen and ( min-width: 1024px ) {
+    .slider {
+        height: 550px;
+    }
+
+    .slide_images {
+        min-width: 50%;
+    }
+}
+
+@media only screen and ( min-width: 1025px ) {
+    .slider {
+        height: 680px;
+    }
+
+    .slide_images {
+        min-width: 50%;
+        padding-top: 13vh;
+    }
 }
