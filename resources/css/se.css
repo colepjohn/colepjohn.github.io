@@ -1,0 +1,111 @@
+#resume {
+    background-color: #1d2022;
+    z-index: 400;
+    padding-bottom: 10px;
+    margin-right: 0;
+}
+
+.res {
+    text-align: center;
+}
+
+.wse {
+    color:rgb( 148, 148, 148 );
+    margin-left: 10vw;
+}
+
+#res_title {
+    color: rgb( 223, 121, 25);
+    margin-bottom: -15px;
+}
+
+#res_description {
+    color: rgb( 148, 148, 148 );
+    padding-bottom: 10px;
+}
+
+.skills {
+    text-align: left;
+    color:rgb( 223, 121, 25);
+}
+
+.education {
+    text-align: left;
+    color: rgb( 223, 121, 25);
+}
+
+.education_list {
+    color: rgb( 148, 148, 148 );
+}
+
+.skill_list {
+    color: rgb( 148, 148, 148 );
+}
+
+li {
+    margin: 5px;
+}
+
+@media only screen and ( min-width: 768px ) {
+    #res_title {
+        font-size: x-large;
+    }
+    
+    #res_description {
+        font-size: medium;
+    }
+
+    #skill_title {
+        font-size: xx-large;
+    }
+
+    #education_title {
+        font-size: xx-large;
+    }
+
+    .education_list {
+        font-size: x-large;
+    }
+
+    .skill_list {
+        font-size: x-large;
+    }
+    
+    .skills {
+        padding: 5px;
+    }
+
+    .education {
+        padding: 5px;
+    }
+}
+
+@media only screen and ( min-width: 1024px ) {
+    .wse {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10vw;
+    }
+
+    #skill_title {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    #education_title {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .skills {
+        border-radius: 25px;
+        background: #2a2e31;
+        padding: 10px;
+    }
+
+    .education {
+        border-radius: 25px;
+        background: #2a2e31;
+        padding: 10px;
+    }
+}
