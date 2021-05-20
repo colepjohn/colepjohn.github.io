@@ -6,20 +6,20 @@ html {
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
-    background-color: rgb(240, 240, 240)
+    background-color: #1d2022;
 }
 
 /* Navigation Bar Styles */
 .nav_bar {
-    display: flex;
+    padding: 7px;
     justify-content: space-between;
-    padding: 20px;
     background-color: #474b4f;
     top: 0;
     width: 100%;
     overflow: hidden;
     position: fixed;
     z-index: 500;
+    display: flex;
 }
 
 .nav_links {
@@ -27,13 +27,13 @@ body {
 }
 
 .nav_bar > .nav_links > div {
-    margin-right: 20px;
+    margin-right: 10px;
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 .link {
-    height: 22px;
+    height: 15px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -45,23 +45,24 @@ body {
 }
 
 .link:hover {
-    border-bottom: 1px solid #61892f;
+    border-bottom: 1px solid rgb(223, 121, 25);
 }
 
 .link a:hover {
-    color: #61892f;
+    color: rgb(223, 121, 25);
 }
 
 .active-nav_link {
-    border-bottom: 1px solid #61892f;
+    border-bottom: 1px solid rgb(223, 121, 25);
 }
 
 .active-nav_link a {
-    color: #61892f !important;
+    color: rgb(223, 121, 25) !important;
 }
 
 .name {
-    color: #1d2022
+    color: #1d2022;
+    display: none;
 }
 
 #background_img {
@@ -69,4 +70,46 @@ body {
     top: 0;
     z-index: -1;
     filter: brightness( 50% );
+}
+
+@media only screen and ( min-width: 767px ) {
+    .nav_links {
+        font-size: x-large;
+        padding: 10px;
+        height: 22px;
+    }
+
+    .name {
+        display: flex;
+        font-size: large;
+        height: 15px;
+        padding: 10px;
+        margin-right: 8px;
+    }
+
+    .link {
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and ( min-width: 770px ) {
+    .nav_links {
+        font-size: x-large;
+        padding: 15px;
+    }
+
+    .name {
+        display: flex;
+        font-size: larger;
+        padding: 15px;
+        margin-right: 10px;
+    }
+
+    .link {
+        padding-bottom: 10px;
+    }
+
+    .nav_bar > .nav_links > div {
+        margin-right: 20px;
+    }
 }
