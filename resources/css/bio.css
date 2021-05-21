@@ -9,12 +9,12 @@ a {
 
 #bio {
     background-color: #1d2022;
-    font-size: 0.8em;
+    font-size: 1em;
     color: rgb(148, 148, 148);
     text-align: center;
     z-index: 400;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 60px;
     float: right;
 }
 
@@ -36,7 +36,8 @@ a {
         float: right;
         text-align: left;
         background-color: #1d2022;
-        font-size: 1em;
+        font-size: 1.4em;
+	padding-bottom: 100px;
     }
     
     #headshot {
@@ -73,7 +74,7 @@ a {
     }
     
     #bio {
-        font-size: 1.2em;
-        padding-bottom: 70px;
+        font-size: 1.6em;
+        padding-bottom: 100px;
     }
 }
