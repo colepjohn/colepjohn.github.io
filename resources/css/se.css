@@ -16,22 +16,26 @@
 
 #res_title {
     color: rgb( 223, 121, 25);
-    margin-bottom: -15px;
+    margin-bottom: -18px;
+    font-size: x-large;
 }
 
 #res_description {
     color: rgb( 148, 148, 148 );
     padding-bottom: 10px;
+    font-size: small;
 }
 
 .skills {
     text-align: left;
     color:rgb( 223, 121, 25);
+    padding-bottom: 10px;
 }
 
 .education {
     text-align: left;
     color: rgb( 223, 121, 25);
+    padding-bottom: 10px;
 }
 
 .education_list {
@@ -46,13 +50,23 @@ li {
     margin: 5px;
 }
 
+#skill_title {
+    text-align: center;
+    margin-left: -10vw;
+}
+
+#education_title {
+    text-align: center;
+    margin-left: -10vw;
+}
+
 @media only screen and ( min-width: 768px ) {
     #res_title {
-        font-size: x-large;
+        font-size: xx-large;
     }
     
     #res_description {
-        font-size: medium;
+        font-size: large;
     }
 
     #skill_title {
@@ -107,5 +121,44 @@ li {
         border-radius: 25px;
         background: #2a2e31;
         padding: 10px;
+    }
+
+    #res_title {
+	font-size: 2.3em;
+	margin-bottom: -23px;
+    }
+
+    #res_description {
+	font-size: 1.5em;
+    }
+}
+
+@media only screen and ( min-width: 1281px ) {
+    #skill_title {
+	font-size: 2.7em;
+    }
+
+    .skills {
+	padding: 10px;
+    }
+    
+    .skill_list {
+	font-size: 2em;
+    }
+
+    .education_list {
+	font-size: 2em;
+    }
+
+    #education_title {
+	font-size: 2.7em;
+    }
+
+    .education {
+	padding: 10px;
+    }
+
+    #res_description {
+	padding-bottom: 80px;
     }
 }
