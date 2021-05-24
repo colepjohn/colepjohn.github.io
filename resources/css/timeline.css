@@ -11,20 +11,147 @@
 }
 
 @media only screen and ( max-width: 767px ) {
-    # work_title {
+    #work_title {
         padding-bottom: 5vh;
     }
     
+    #timken_img {
+	max-width: 35vw;
+	margin-left: 11vw;
+    }
+
+    #timken_title {
+	color: white;
+	font-size: x-large;
+	margin-bottom: -2vh;
+	margin-top: 0.8vh;
+    }
+
+    #timken_dates {
+	color: white;
+	font-size: large;
+    }
+
+    #timken_description {
+	color: rgb( 148, 148, 148 );
+	font-size: large;
+    }
+
+    #hd_img {
+	max-width: 28vw;
+	margin-left: 13vw;
+    }
+
+    #hd_title {
+	color: white;
+	font-size: x-large;
+	margin-bottom: -2vh;
+	margin-top: 0.2vh;
+    }
+
+    #hd_description {
+	color: rgb( 148, 148, 148 );
+	font-size: large;
+    }
+
+    #ymca_img {
+	max-width: 28vw;
+	margin-left: 13vw;
+    }
+
+    #ymca_title {
+	color: white;
+	font-size: x-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #ymca_description {
+	color: rgb( 148, 148, 148 );
+	font-size: large;
+    }
+
+    #ymca_dates {
+	color: white;
+	font-size: large;
+    }
+
+    #utk_img {
+	max-width: 28vw;
+	margin-left: 15vw;
+    }
+
+    #utk_title {
+	color: white;
+	font-size: x-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #utk_dates {
+	color: white;
+	font-size: large;
+    }
+
+    #utk_description {
+	color: rgb( 148, 148, 148 );
+	font-size: large;
+    }
+
+    #lcsac_img {
+	max-width: 28vw;
+	margin-left: 15vw;
+    }
+
+    #lcsac_title {
+	color: white;
+	font-size: x-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #lcsac_dates {
+	color: white;
+	font-size: large;
+    }
+
+    #lcsac_description {
+	color: rgb( 148, 148, 148 );
+	font-size: large;
+    }
+
+    #elhs_img {
+	max-width: 28vw;
+	margin-left: 15vw;
+    }
+
+    #elhs_title {
+	color: white;
+	font-size: x-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #elhs_dates {
+	color: white;
+	font-size: large;
+    }
+
+    #elhs_description {
+	color: rgb( 148, 148, 148 );
+	font-size: large;
+    }
+
     .timeline {
         position: relative;
         margin: 2vw;
     }
-    
+
     .timeline::after {
         content: '';
         position: absolute;
-        width: 6px;
-        background-color: white;
+        width: 3px;
+        background-color: rgb( 223, 121, 25 );
         top: 0;
         bottom: 0;
         left: 5vw;
@@ -36,7 +163,6 @@
         position: relative;
         background-color: inherit;
         width: 100%;
-        margin-left: 1vw;
     }
     
     .container::after {
@@ -44,10 +170,9 @@
         position: absolute;
         width: 25px;
         height: 25px;
-        right: -17px;
-        background-color: white;
-        border: 4px solid #FF9F55;
-        top: 14vh;
+        background-color: #2a2e31;
+        border: 4px solid rgb( 223, 121, 25 );
+        top: 16vh;
         border-radius: 50%;
         z-index: 1;
         left: 0;
@@ -63,11 +188,137 @@
 }
 
 @media only screen and ( min-width: 768px ) {
-    # work_title {
+    #work_title {
         font-size: xx-large;
         padding-top: 4vh;
     }
     
+    #timken_img {
+	max-width: 20vw;
+	margin-left: 5vw;
+    }
+
+    #timken_title {
+	font-size: xx-large;
+	color: white;
+	margin-bottom: -2vh;
+    }
+
+    #timken_dates {
+	color: white;
+	font-size: 1.3em;
+    }
+
+    #timken_description {
+	color: rgb( 148, 148, 148 );
+	font-size: 1.3em;
+    }
+
+    #hd_img {
+	max-width: 15vw;
+	margin-left: 7vw;
+    }
+
+    #hd_title {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: -2vh;
+	margin-top: -0.5vh;
+    }
+
+    #hd_description {
+	color: rgb( 148, 148, 148 );
+	font-size: 1.3em;
+    }
+
+    #ymca_img {
+	max-width: 15vw;
+	margin-left: 7vw;
+    }
+
+    #ymca_title {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: -2vh;
+	margin-top: .5vh;
+    }
+
+    #ymca_dates {
+	color: white;
+	font-size: 1.3em;
+    }
+
+    #ymca_description {
+	color: rgb( 148, 148, 148 );
+	font-size: 1.3em;
+    }
+
+    #utk_img {
+	max-width: 16vw;
+	margin-left: 7vw;
+    }
+
+    #utk_title {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #utk_dates {
+	color: white;
+	font-size: 1.3em;
+    }
+
+    #utk_description {
+	color: rgb( 148, 148, 148 );
+	font-size: 1.3em;
+    }
+
+    #lcsac_img {
+	max-width: 16vw;
+	margin-left: 7vw;
+    }
+
+    #lcsac_title {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #lcsac_dates {
+	color: white;
+	font-size: 1.3em;
+    }
+
+    #lcsac_description {
+	color: rgb( 148, 148, 148 );
+	font-size: 1.3em;
+    }
+
+    #elhs_img {
+	max-width: 16vw;
+	margin-left: 7vw;
+    }
+
+    #elhs_title {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: -2vh;
+	margin-top: 0.5vh;
+    }
+
+    #elhs_dates {
+	color: white;
+	font-size: 1.3em;
+    }
+
+    #elhs_description {
+	color: rgb( 148, 148, 148 );
+	font-size: 1.3em;
+    }
+
     .timeline {
         position: relative;
         margin: 2vw;
@@ -76,8 +327,8 @@
     .timeline::after {
         content: '';
         position: absolute;
-        width: 6px;
-        background-color: white;
+        width: 3px;
+        background-color: rgb( 223, 121, 25 );
         top: 0;
         bottom: 0;
         left: 50%;
@@ -97,15 +348,15 @@
         width: 25px;
         height: 25px;
         right: -17px;
-        background-color: white;
-        border: 4px solid #FF9F55;
+        background-color: #2a2e31;
+        border: 4px solid rgb( 223, 121, 25 );
         top: 14vh;
         border-radius: 50%;
         z-index: 1;
     }
     
     .left {
-        left: 0;
+        left: -2px;
     }
     
     .right {
@@ -113,7 +364,7 @@
     }
     
     .right::after {
-        left: -16px;
+        left: -18px;
     }
     
     .content {
@@ -130,10 +381,160 @@
         font-size: 2.5em;
         padding-top: 5vh;
     }
+
+    #timken_img {
+	max-width: 25vw;
+    }
+
+    #timken_title {
+	margin-top: 0.5vh;
+	font-size: 2.5em;
+    }
+
+    #timken_dates {
+	font-size: 1.8em;
+    }
+
+    #timken_description {
+	font-size: 1.8em;
+    }
+
+    #hd_img {
+	max-width: 25vw;
+	margin-left: 5vw;
+    }
+
+    #hd_title {
+	margin-top: 0.5vh;
+	font-size: 2.5em;
+    }
+
+    #hd_dates {
+	font-size: 1.8em;
+    }
+
+    #hd_description {
+	font-size: 1.8em;
+    }
+
+    #utk_img {
+	max-width: 25vw;
+	margin-left: 5vw;
+    }
+
+    #utk_title {
+	margin-top: 0.5vh;
+	font-size: 2.5em;
+    }
+
+    #utk_dates {
+	font-size: 1.8em;
+    }
+
+    #utk_description {
+	font-size: 1.8em;
+    }
+
+    #ymca_img {
+	max-width: 25vw;
+	margin-left: 5vw;
+    }
+
+    #ymca_title {
+	margin-top: 0.5vh;
+	font-size: 2.5em;
+    }
+
+    #ymca_dates {
+	font-size: 1.8em;
+    }
+
+    #ymca_description {
+	font-size: 1.8em;
+    }
+
+    #lcsac_img {
+	max-width: 25vw;
+	margin-left: 5vw;
+    }
+
+    #lcsac_title {
+	margin-top: 0.5vh;
+	font-size: 2.5em;
+    }
+
+    #lcsac_dates {
+	font-size: 1.8em;
+    }
+
+    #lcsac_description {
+	font-size: 1.8em;
+    }
+
+    #elhs_img {
+	max-width: 25vw;
+	margin-left: 5vw;
+    }
+
+    #elhs_title {
+	margin-top: 0.5vh;
+	font-size: 2.5em;
+    }
+
+    #elhs_dates {
+	font-size: 1.8em;
+    }
+
+    #elhs_description {
+	font-size: 1.8em;
+    }
+
+    .container::after {
+        width: 40px;
+        height: 40px;
+    }
+
+    .left {
+	left: 5px;
+    }
+
+    .right::after {
+	left: -25px;
+    }
 }
 
 @media only screen and ( min-width: 1200px ) {
     #work_title {
         padding-top: 8vh;
+    }
+
+    #timken_img {
+	max-width: 15vw;
+	margin-left: 12vw;
+    }
+
+    #hd_img {
+	max-width: 15vw;
+        margin-left: 12vw;
+    }
+
+    #utk_img {
+	max-width: 15vw;
+	margin-left: 12vw;
+    }
+
+    #ymca_img {
+	max-width: 15vw;
+	margin-left: 12vw;
+    }
+
+    #lcsac_img {
+	max-width: 15vw;
+	margin-left: 12vw;
+    }
+
+    #elhs_img {
+	max-width: 15vw;
+	margin-left: 12vw;
     }
 }
