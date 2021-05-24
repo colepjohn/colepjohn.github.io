@@ -73,6 +73,11 @@ body {
 }
 
 @media only screen and ( min-width: 767px ) {
+    .nav_bar {
+        padding: 2vh;
+        margin-top: -2vh;
+    }
+    
     .nav_links {
         font-size: x-large;
         padding: 10px;
@@ -88,13 +93,17 @@ body {
     }
 
     .link {
-        padding-bottom: 10px;
+        padding-bottom: 2.5vh;
     }
 }
 
 @media only screen and ( min-width: 770px ) {
+    .nav_bar {
+        padding-bottom: 3vh;
+    }
+    
     .nav_links {
-        font-size: x-large;
+        font-size: xx-large;
         padding: 15px;
     }
 
@@ -106,7 +115,7 @@ body {
     }
 
     .link {
-        padding-bottom: 10px;
+        padding-bottom: 2.7vh;
     }
 
     .nav_bar > .nav_links > div {
