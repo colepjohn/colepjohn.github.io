@@ -91,10 +91,7 @@ body {
 }
 
 @media only screen and ( min-width: 770px ) {
-    .nav_bar {
-        padding-bottom: 1vh;
-    }
-    
+
     .nav_links {
         font-size: xx-large;
         padding: 15px;
