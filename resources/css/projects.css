@@ -67,7 +67,6 @@ body {
 
 @media only screen and ( min-width: 767px ) {
     .nav_bar {
-        padding: 2vh;
         margin-top: -2vh;
     }
     
