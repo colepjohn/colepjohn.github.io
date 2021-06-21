@@ -34,7 +34,6 @@ body {
 
 .link {
     height: 15px;
-    border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
 
@@ -44,16 +43,8 @@ body {
     transition: color 0.5s;
 }
 
-.link:hover {
-    border-bottom: 1px solid rgb(223, 121, 25);
-}
-
 .link a:hover {
     color: rgb(223, 121, 25);
-}
-
-.active-nav_link {
-    border-bottom: 1px solid rgb(223, 121, 25);
 }
 
 .active-nav_link a {
@@ -99,7 +90,7 @@ body {
 
 @media only screen and ( min-width: 770px ) {
     .nav_bar {
-        padding-bottom: 3vh;
+        padding-bottom: 3.7vh;
     }
     
     .nav_links {
