@@ -1,0 +1,13 @@
+.nav-link:focus, .nav-link:hover {
+	color: #1d378c;
+	text-decoration: underline;
+	text-underline-offset: 7px;
+}
+
+.nav-link {
+	font-size: 3vh;
+}
+
+.navbar-brand {
+	font-size: 4vh;
+}
